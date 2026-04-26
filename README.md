@@ -9,16 +9,16 @@ They aid in:
 
 ## Types of SQL joins
 SQL joins are categorized by how rows from two tables are matched and combined.
-- ** SQL Inner Join: ** They retrieve rows where matching values exist in both tables.
+- **SQL Inner Join:** They retrieve rows where matching values exist in both tables.
 They help in combining records based on a related column, retrieving only matching rows from both tables and ensuring accurate data relationships between tables.
 
-*** Syntax ***
+***Syntax***
 ```Inner Join
 SELECT table1.column1,table1.column2,table2.column1,.... FROM table1  INNER JOIN
  table2 ON  table1.matching_column = table2.matching_column;```
-* The join is also known as the Inner Join. *
-* For Instance, if I have two tables, the customers table and orders table, and I want to know the customer who made an order, I can use the common column, which is the customer_id, to merge the tables.*
-** The Snapshot below shows a sample query: **
+*The join is also known as the Inner Join.*
+*For Instance, if I have two tables, the customers table and orders table, and I want to know the customer who made an order, I can use the common column, which is the customer_id, to merge the tables.*
+**The Snapshot below shows a sample query:**
 
 ![INNER JOIN](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vv2oj2zuxx5zx1gezj5j.png)
 ** Left Join: ** They retrieve all rows on the left table and matching rows from the right table, and show null values where no match exists. It prioritizes the first table you mention.
