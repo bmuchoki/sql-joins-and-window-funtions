@@ -7,7 +7,7 @@ They aid in:
 - Improvement of Data Analysis through the combination of related information.
 - Creation of a meaningful result set from separate tables.
 
-##Types of SQL joins
+## Types of SQL joins
 SQL joins are categorized by how rows from two tables are matched and combined.
 - **SQL Inner Join:** They retrieve rows where matching values exist in both tables.
 They help in combining records based on a related column, retrieving only matching rows from both tables and ensuring accurate data relationships between tables.
