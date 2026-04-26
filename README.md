@@ -1,6 +1,6 @@
 # Joins
 **Let's JOIN It!**
-
+This article describes how joins and window functions are used to manipulate data in SQL. You can also access the article at https://dev.to/brianm/joins-and-windows-functions-in-sql-530h
 Joins combine two or more tables based on a related column.
 They aid in:
 - Retrieval of connected data that is stored across multiple tables.
