@@ -1,5 +1,5 @@
 # Joins
-** Let's JOIN It! **
+**Let's JOIN It!**
 Joins combine two or more tables based on a related column.
 They aid in:
 - Retrieval of connected data that is stored across multiple tables.
